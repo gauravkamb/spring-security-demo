@@ -6,9 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SimpleController {
 	
+	
 	@RequestMapping("/")
 	public String returnHelloMessage() {
-		return "<h1>Hello</h1>";
+		return "<h1>Welcome</h1>";
 	}
 	
 	@RequestMapping("/user")
